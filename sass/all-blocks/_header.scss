@@ -1,0 +1,38 @@
+.header {
+  padding-top: 64px;
+}
+
+.header__container{
+  width: 1111px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__menu {
+  display: flex;
+}
+
+.header__item {
+  list-style: none;
+}
+
+.header__menu-link {
+  padding-left: 42px;
+  color: #333136;
+  font-size: 20px;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+}
+
+.header__menu-link:hover {
+  text-decoration: underline;
+}
+
+
