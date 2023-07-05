@@ -104,7 +104,7 @@
   font-size: 16px;
   border-radius: 12px;
   color: #fff;
-  background: black;
+  background-color: $gobal-site-color;
   border: none;
   display: flex;
   justify-content: center;
@@ -114,8 +114,8 @@
   padding: 10px 0;
   font-size: 16px;
   border-radius: 12px;
-  color: #000;
-  border: 2px solid black;
+  color: $gobal-site-color;
+  border: 2px solid $gobal-site-color;
   display: flex;
   justify-content: center;
 }

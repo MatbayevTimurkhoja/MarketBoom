@@ -29,10 +29,17 @@
   font-weight: 400;
   line-height: 14px;
   letter-spacing: 2px;
+  // transition: 0.5s;
 }
 
 .header__menu-link:hover {
+  color: $gobal-site-color;
   text-decoration: underline;
+}
+
+.header__menu-link span{
+  color: $gobal-site-color;
+  font-weight: bold;
 }
 
 
